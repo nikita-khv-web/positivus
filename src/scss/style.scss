@@ -5,3 +5,9 @@
 @use "variables";
 @use "utils";
 @use "global";
+
+@use "blocks/button";
+@use "blocks/button-burger";
+@use "blocks/header";
+@use "blocks/cross-button";
+@use "blocks/mobile-overlay";
