@@ -1,7 +1,7 @@
 @use "media";
 
 :root {
-	--color-dark: #191A23;
+	--color-dark: #191a23;
 	--color-dark-alt: #292a32;
 	--color-light: #ffffff;
 	--color-accent: #b9ff66;
@@ -27,7 +27,7 @@
 
 	--transition-duration: 0.2s;
 
-	@include media.desctop {
+	@include media.desktop {
 		--section-padding-y: 50px;
 	}
 

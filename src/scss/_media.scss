@@ -10,13 +10,13 @@ $mobile: 767px;
 $mobile-s-above: 768px;
 $mobile-s: 767px;
 
-@mixin desctop-above {
+@mixin desktop-above {
 	@media (min-width: $desktop-above) {
 		@content;
 	}
 }
 
-@mixin desctop {
+@mixin desktop {
 	@media (max-width: $desktop) {
 		@content;
 	}

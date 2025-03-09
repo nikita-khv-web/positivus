@@ -6,7 +6,7 @@
 	flex-direction: column;
 	row-gap: var(--section-padding-y);
 
-	@include media.desctop {
+	@include media.desktop {
 		row-gap: 60px;
 	}
 
@@ -74,8 +74,7 @@
 				--heroPartnersWidthOffsetX: 60px;
 				width: calc(100% + var(--heroPartnersWidthOffsetX) * 2);
 				margin-left: calc(
-					(var(--heroPartnersWidthOffsetX) + var(--container-padding-x))
-					* -1
+					(var(--heroPartnersWidthOffsetX) + var(--container-padding-x)) * -1
 				);
 				column-gap: 0;
 			}
@@ -94,7 +93,7 @@
 			@include media.mobile-s {
 				justify-content: start;
 
-				&:nth-child(-n +3) {
+				&:nth-child(-n + 3) {
 					justify-content: end;
 				}
 			}
