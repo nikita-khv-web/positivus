@@ -21,4 +21,14 @@
 		color: var(--color-dark);
 		background: transparent;
 	}
+
+	&--accent {
+		color: var(--color-dark);
+		background-color: var(--color-accent);
+
+		@include media.hover {
+			color: var(--color-accent);
+			background-color: var(--color-dark);
+		}
+	}
 }
